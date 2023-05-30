@@ -7,6 +7,7 @@ This project seeks to investigate which emotions are more dominant in headlines 
 ## Steps
 
 
+link for Huggingface: https://huggingface.co/docs/transformers/main_classes/pipelines#natural-language-processing
 
 ## Repository structure
 -	In folder: contains the dataset headlines.csv.

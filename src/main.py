@@ -25,6 +25,7 @@ def classify_emotions(data):
 classified_headlines = classify_emotions(df_2021)
 
 # Now i want to compare the classified headlines based on country
+
 # Creating an empty dictionary to store the classified headlines for each country
 country_headlines = {}
 
@@ -41,6 +42,8 @@ for _, row in df_2021.iterrows():
     else:
         country_headlines[country] = [emotion]
 
+# iterating over the dictionary to investigate which countries are present and how many articles are from each country
 for country, headlines in country_headlines.items():
     num_articles = len(headlines)
     print(f"Country: {country} | Number of Articles: {num_articles}")
+
