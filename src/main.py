@@ -28,3 +28,15 @@ classified_headlines = classify_emotions(df_2021)
 # Creating an empty dictionary to store the classified headlines for each country
 country_headlines = {}
 
+# Iterate over the rows of the df_2021 dataset
+for _, row in df_2021.iterrows():
+    country = row['country']
+    headline = row['headline_no_site']
+    result = emotion_classifier(headline)
+    emotion = result[0]['label']
+    
+    # Check if the country is already a key in the dictionary
+    if country in country_headlines:
+        country_headlines[country].append(emotion)
+    else:
+        country_headlines[country] = [emotion]
