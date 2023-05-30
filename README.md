@@ -1,10 +1,14 @@
-# Using Huggingface to determine emotions in headlines about women in different countries
+# Using Huggingface to investigate emotions in headlines about women in different countries
 ## Purpose
 This is my self-assigned project, which can be seen as a continuation of assignment 4, in that the methods are similar, but the dataset is different, which makes room for using Huggingface for classifying emotions in other ways.
 
 This project seeks to investigate which emotions are more dominant in headlines speaking of women.
 
 ## Steps
+
+
+
+## Repository structure
 -	In folder: contains the dataset headlines.csv.
 -	out folder: Contains the outputs generated during the execution of the scripts. This includes csv files with classified emotions and some visualisations.
 -	src folder: Contains the main script to investigate the dataset. This includes the pipeline for the classifier and the visualisation of the results.
@@ -12,10 +16,6 @@ This project seeks to investigate which emotions are more dominant in headlines 
 o	Requirements.txt file: Lists the required programs and packages to run the code. 
 o	Can be installed with: pip install -r requirements.txt
 -	README.md file: Contains the assignment details, dependencies, additional notes, and reflections on the output. 
-
-
-## Repository structure
-d
 ## Dependencies and data
 The project has been run through UCloud in the Coder Python app (1.78.2), and the neccesary programs are listed in requirements.txt.
 

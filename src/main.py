@@ -40,3 +40,7 @@ for _, row in df_2021.iterrows():
         country_headlines[country].append(emotion)
     else:
         country_headlines[country] = [emotion]
+
+for country, headlines in country_headlines.items():
+    num_articles = len(headlines)
+    print(f"Country: {country} | Number of Articles: {num_articles}")
