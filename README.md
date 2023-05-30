@@ -1,6 +1,6 @@
 # Using Huggingface to determine emotions in headlines about women in different countries
 ## Purpose
-This is my self-assigned project, which can be seen as a continuation of assignment 4, in that the methods are similar, but the dataset is different, which makes room for exploring other aspects of using Huggingface for classifying emotions.
+This is my self-assigned project, which can be seen as a continuation of assignment 4, in that the methods are similar, but the dataset is different, which makes room for using Huggingface for classifying emotions in other ways.
 
 This project seeks to investigate which emotions are more dominant in headlines speaking of women.
 
