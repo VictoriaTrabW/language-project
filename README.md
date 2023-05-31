@@ -2,7 +2,9 @@
 ## Purpose
 This is my self-assigned project, which can be seen as a continuation of assignment 4, in that the methods are similar, but the dataset is different, which makes room for using Huggingface for classifying emotions in other ways.
 
-This project seeks to investigate which emotions are more dominant in headlines speaking of women.
+The project aims to analyze the emotions conveyed in news headlines from different countries. It utilizes a pre-trained emotion classification model from the Hugging Face library to classify the emotions associated with each headline. The analysis focuses on articles from the year 2021 as they represent the most recent and contains most articles.
+
+Overall, this project seeks to investigate which emotions are more dominant in headlines speaking of women.
 
 ## Steps
 
