@@ -16,7 +16,7 @@ df_2021 = df[df['time'].str.startswith('2021')]
 def classify_emotions(data):
     return [emotion_classifier(headline)[0]['label'] for headline in data['headline_no_site']]
 
-# Classify emotions for 2021 articles
+# Classifying emotions for 2021 articles
 classified_headlines = classify_emotions(df_2021)
 
 # Creating a dictionary to store the classified headlines for each country
@@ -72,6 +72,3 @@ emotion_table = pd.DataFrame(emotion_distributions)
 
 # Save the emotion table as a CSV file
 emotion_table.to_csv('language-project/out/emotion_table.csv', index=True)
-
-# Displaying the emotion table
-print(emotion_table)
