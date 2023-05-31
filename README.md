@@ -27,8 +27,6 @@ The dataset was created by Amber Thomas and contains headlines where women are m
 Link for Huggingface documentation: https://huggingface.co/docs/transformers/main_classes/pipelines#natural-language-processing
 
 ## Reflections and methods
-By following these steps, the script enabled an analysis of the emotions expressed in news headlines from different countries, providing insights into the emotional content of the articles. The generated plots and tables offer visual and tabular representations of the emotion distributions, aiding in the comparative analysis of emotions across countries.
-
-An important part of the data analysis was realising the differing amount of articles per country which could potentially skewer the impression of the distribution of emotions. 
+By following these steps, the script enabled an analysis of the emotions expressed in news headlines from different countries, providing insights into the emotional content of the articles. The generated plots and tables offer visual and tabular representations of the emotion distributions, aiding in the comparative analysis of emotions across countries. An important part of the data analysis was realising the differing amount of articles per country which could potentially skewer the impression of the distribution of emotions. 
 
 Generally, the most dominant emotion for the headlines from the four countries, is neutral. 
