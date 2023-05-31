@@ -29,4 +29,8 @@ Link for Huggingface documentation: https://huggingface.co/docs/transformers/mai
 ## Reflections and methods
 By following these steps, the script enabled an analysis of the emotions expressed in news headlines from different countries, providing insights into the emotional content of the articles. The generated plots and tables offer visual and tabular representations of the emotion distributions, aiding in the comparative analysis of emotions across countries. An important part of the data analysis was realising the differing amount of articles per country which could potentially skewer the impression of the distribution of emotions. 
 
-Generally, the most dominant emotion for the headlines from the four countries, is neutral. 
+Generally, the most dominant emotion for the headlines from all the four countries, is neutral. The least occurring classified emotion is surprise. 
+For the headlines from India, sadness, joy and anger are most dominant after the neutral classification. However, compared to the other countries, India’s distribution is much more even.
+In South Africa, the emotions sadness and anger dominates the classification of the headlines followed by disgust. The distribution here is more uneven with joy and surprise being the least present classifications. In the UK, a lot of the headlines are classified with the emotions sadness and fear, while disgust, anger and joy are more evenly distributed. In the US, the most dominant emotions are sadness and anger, with joy actually being more present in the data than disgust.
+
+To get a greater understanding of why many of the headlines are classified as negative it would be relevant to analyze the dataset differently to explore which topics were discussed in the articles. Perhaps some countries were going through some particular events.
