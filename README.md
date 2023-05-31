@@ -9,7 +9,6 @@ Overall, this project seeks to investigate which emotions are more dominant in h
 ## Steps
 
 
-link for Huggingface: https://huggingface.co/docs/transformers/main_classes/pipelines#natural-language-processing
 
 ## Repository structure
 -	In folder: contains the dataset headlines.csv.
@@ -25,5 +24,9 @@ The project has been run through UCloud in the Coder Python app (1.78.2), and th
 The data has been obtained from Kaggle.com at https://www.kaggle.com/datasets/thedevastator/women-in-headlines-bias?select=headlines.csv
 The dataset was created by Amber Thomas and contains headlines where women are mentioned in articles from different countries from 2012-2021. The dataset has been downloaded and is in the in folder. I will only be using a subset of the data.
 
+Link for Huggingface documentation: https://huggingface.co/docs/transformers/main_classes/pipelines#natural-language-processing
+
 ## Reflections and methods
-d
+
+
+By following these steps, the script enables an analysis of the emotions expressed in news headlines from different countries, providing insights into the emotional content of the articles. The generated plots and tables offer visual and tabular representations of the emotion distributions, aiding in the comparative analysis of emotions across countries.
