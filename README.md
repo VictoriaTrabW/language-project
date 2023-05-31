@@ -7,8 +7,7 @@ The project aims to analyze the emotions conveyed in news headlines from differe
 Overall, this project seeks to investigate which emotions are more dominant in headlines speaking of women.
 
 ## Steps
-
-
+This script analyzes the emotions conveyed in news headlines from different countries. It loads a dataset of headlines, filters it for articles from 2021, and classifies the emotions using Huggingface as an emotion classification model. It then creates visualizations of the number of articles per country and the emotion distribution for each country. The script also calculates and displays the normalized emotion distribution in a table. 
 
 ## Repository structure
 -	In folder: contains the dataset headlines.csv.
